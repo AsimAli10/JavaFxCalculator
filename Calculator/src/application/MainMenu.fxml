@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="300.0" style="-fx-border-color: blue; -fx-background-color: black;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <children>
+      <Button contentDisplay="CENTER" layoutX="63.0" layoutY="117.0" mnemonicParsing="false" onAction="#Calculator" prefHeight="39.0" prefWidth="73.0" style="-fx-background-color: white;" text="Calculator" textAlignment="JUSTIFY" />
+      <Button contentDisplay="CENTER" layoutX="63.0" layoutY="180.0" mnemonicParsing="false" onAction="#BMI" prefHeight="39.0" prefWidth="73.0" style="-fx-background-color: white;" text="BMI" />
+      <Button contentDisplay="CENTER" layoutX="167.0" layoutY="180.0" mnemonicParsing="false" onAction="#Currency" prefHeight="39.0" prefWidth="85.0" style="-fx-background-color: white;" text="Currency" textAlignment="JUSTIFY" />
+      <Button contentDisplay="CENTER" layoutX="167.0" layoutY="117.0" mnemonicParsing="false" onAction="#investment" prefHeight="39.0" prefWidth="85.0" style="-fx-background-color: white;" text="Investment" textAlignment="JUSTIFY" />
+      <Button contentDisplay="CENTER" layoutX="63.0" layoutY="240.0" mnemonicParsing="false" onAction="#Age" prefHeight="39.0" prefWidth="73.0" style="-fx-background-color: white;" text="Age" textAlignment="JUSTIFY" />
+      <Button contentDisplay="CENTER" layoutX="167.0" layoutY="240.0" mnemonicParsing="false" onAction="#Discount" prefHeight="39.0" prefWidth="85.0" style="-fx-background-color: white;" text="Discount" textAlignment="JUSTIFY" />
+      <Text fill="WHITE" layoutX="32.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to the Mi Calculator">
+         <font>
+            <Font name="Century" size="18.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

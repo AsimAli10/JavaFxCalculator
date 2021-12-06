@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ProcessData">
+   <children>
+      <Text layoutX="60.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Discount Calculator" wrappingWidth="179.978515625">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="43.0" layoutY="79.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Original Price">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="38.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Discount(%off)">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <TextField fx:id="OPrice" layoutX="162.0" layoutY="59.0" prefHeight="25.0" prefWidth="124.0" promptText="Amount">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="OOff" layoutX="162.0" layoutY="106.0" prefHeight="25.0" prefWidth="124.0" promptText="\%off">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Text layoutX="43.0" layoutY="199.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Final Price">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Label fx:id="FPrice" layoutX="171.0" layoutY="179.0">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Text fill="#5e5050" layoutX="79.0" layoutY="228.0" strokeType="OUTSIDE" strokeWidth="0.0" text="You Saved">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+      <Label fx:id="saved" layoutX="144.0" layoutY="214.0" textFill="#722525" />
+      <Button layoutX="112.0" layoutY="138.0" mnemonicParsing="false" onAction="#CalculateDiscount" text="Calculate" />
+      <Button layoutX="112.0" layoutY="261.0" mnemonicParsing="false" onAction="#MainMenu" text="Main Menu" />
+   </children>
+</AnchorPane>
